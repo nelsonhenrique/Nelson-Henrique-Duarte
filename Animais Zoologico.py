@@ -22,3 +22,17 @@ def add():
     qtdT = qtdT + 1
   
 add()
+
+i = input("")
+
+while i == 'continuar':
+  add()
+  i = input("")
+
+print(qtdM)
+if qtdT != 0:
+  mediaT = pesoT / qtdT
+else:
+  mediaT = 0
+print(round(mediaT, 2))
+print(qtdC)
