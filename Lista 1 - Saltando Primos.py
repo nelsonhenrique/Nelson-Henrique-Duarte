@@ -13,8 +13,6 @@ for i in range(l, u+1):
         primos.append(i)
     divisores = []
 
-print()
-
 v = []
 
 for i in range(1, len(primos)):
